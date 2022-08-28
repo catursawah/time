@@ -16,6 +16,8 @@ END
 
 ./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
 
+sleep .2
+
 echo " "
 echo " "
 
