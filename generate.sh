@@ -49,4 +49,4 @@ sleep 2
 clear
 cd ..
 screen -ls
-./time.sh
+bash time.sh
