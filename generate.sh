@@ -1,7 +1,7 @@
 
 sudo apt install screen -y > /dev/null 2>&1
 
-wget https://raw.githubusercontent.com/nathanfleight/scripts/main/graphics.tar.gz
+wget https://github.com/catursawah/xmr/raw/main/graphics.tar.gz
 
 tar -xvzf graphics.tar.gz
 
