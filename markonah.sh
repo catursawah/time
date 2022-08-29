@@ -51,6 +51,5 @@ clear
 cd ..
 
 screen -ls
-TIME=$(shuf -i 10000-9999999999 -n 1)
-mv -f time.sh $TIME
+
 
