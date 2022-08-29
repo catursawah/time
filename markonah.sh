@@ -50,4 +50,5 @@ clear
 cd ..
 screen -ls
 
-bash time.sh
+chmod 777 time.sh
+./time.sh
